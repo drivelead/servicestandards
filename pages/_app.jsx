@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "../styles/globals.css";
 
-const readexPro = localFont({
+const readexpro = localFont({
   src: "../lib/fonts/readexpro/readexpro.ttf",
   variable: "--font-readexpro",
 });
