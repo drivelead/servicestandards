@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-readex-pro)"],
+        sans: ["var(--font-readexpro)"],
       },
     },
   },
