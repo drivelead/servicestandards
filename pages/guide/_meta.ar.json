@@ -1,4 +1,16 @@
 {
-  "embeding-react-components": "مكونات React المخصصة",
-  "syntax-highlighting": "تمييز بناء الجملة (كود)"
+  "1-understand-users-and-their-needs": " ١. فهم المستخدمين واحتياجاتهم",
+  "2-solve-a-whole-problem-for-users": "٢. حل مشكلة كاملة للمستخدمين",
+  "3-provide-a-joined-up-experience-across-all-channels": " ٣. توفير تجربة متكاملة عبر جميع القنوات",
+  "4-make-the-service-simple-to-use": " ٤. جعل الخدمة سهلة الاستخدام",
+  "5-make-sure-everyone-can-use-the-service": " ٥. تأكد من قدرة الجميع على استخدام الخدمة",
+  "6-have-a-multidisciplinary-team": " ٦. امتلك فريق متعدد التخصصات",
+  "7-use-agile-ways-of-working": " ٧. استخدم طرق العمل المرنة",
+  "8-iterate-and-improve-frequently": " ٨. أعد التقييم والتحسين بشكل متكرر",
+  "9-create-a-secure-service-which-protects-users-privacy": " ٩. إنشاء خدمة آمنة تحمي خصوصية المستخدمين",
+  "10-define-what-success-looks-like-and-publish-performance-data": " ١٠. حدد مظهر النجاح ونشر بيانات الأداء",
+  "11-choose-the-right-tools-and-technology": " ١١. اختر الأدوات والتكنولوجيا المناسبة",
+  "12-make-new-source-code-open": " ١٢. جعل الشيفرة المصدرية جديدة مفتوحة",
+  "13-use-and-contribute-to-open-standards-common-components-and-patterns": " ١٣. استخدم وساهم في المعايير المفتوحة، والمكونات المشتركة والأنماط",
+  "14-operate-a-reliable-service": " ٤. تشغيل خدمة موثوقة"
 }
