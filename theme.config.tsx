@@ -15,4 +15,9 @@ const config: DocsThemeConfig = {
   },
 }
 
+i18n: [
+  { locale: 'en', text: 'English' },
+  { locale: 'ar', text: 'العربية', direction: 'rtl' }
+]
+
 export default config
