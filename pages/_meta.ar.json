@@ -1,16 +1,5 @@
 {
-    "index": "المقةمة",
-    "another": "صفحة أخرى",
-    "advanced": "غير ذلك (مجلد)",
-    "about": {
-      "title": "حول",
-      "type": "page"
-    },
-    "contact": {
-      "title": "اتصل",
-      "type": "page",
-      "href": "https://twitter.com/",
-      "newWindow": true
-    }
-  }
-  
+  "index": "مقدمة",
+  "another-page": "صفحة أخرى",
+  "guide": "مرشد"
+}
