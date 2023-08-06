@@ -4,13 +4,13 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 const config: DocsThemeConfig = {
   logo: <span>Service Standards</span>,
   search: { placeholder: "Search..." },
-  // project: {
-  //   link: 'https://github.com/shuding/nextra-docs-template',
-  // },
-  // chat: {
-  //   link: 'https://discord.com',
-  // },
-  // docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  project: {
+    link: 'https://github.com/drivelead/servicestandards.git',
+   },
+   chat: {
+    link: 'https://discord.com',
+   },
+   docsRepositoryBase: 'https://github.com/drivelead/servicestandards.git',
   footer: {
     text: "Service Standards",
   },
