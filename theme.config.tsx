@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
    chat: {
     link: 'https://discord.com',
    },
-   docsRepositoryBase: 'https://github.com/drivelead/servicestandards.git',
+  // docsRepositoryBase: 'https://github.com/drivelead/servicestandards.git',
   footer: {
     text: "Service Standards",
   },
