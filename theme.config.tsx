@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
 
 import Footer from "./components/UI/Generic/Footer";
+import MDXSerializers from "./components/UI/Generic/Typgraphy/MDXSerializers";
 
 import Logo from "./public/assets/medal-solid.svg";
 import {
@@ -48,11 +49,13 @@ const dynamicHead = () => {
 };
 
 const config: DocsThemeConfig = {
+  components: MDXSerializers,
   logo: <Image src={Logo} alt="" width={42} height={42} />,
   search: {
     placeholder: () => {
       const { locale: activeLocale } = useRouter();
       const placeholderTranslations = { en: "Search...", ar: "يبحث..." };
+
       return placeholderTranslations[activeLocale];
     },
   },
