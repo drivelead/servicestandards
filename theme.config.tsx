@@ -130,6 +130,13 @@ const config: DocsThemeConfig = {
       };
     }
   },
+  toc: {
+    title: () => {
+      const { locale: activeLocale } = useRouter();
+      const labelTranslations = { en: "On this page", ar: "على هذه الصفحة" };
+      return labelTranslations[activeLocale];
+    },
+  },
   i18n: [
     { locale: "en", text: "English" },
     { locale: "ar", text: "العربية", direction: "rtl" },
