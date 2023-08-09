@@ -54,7 +54,7 @@ const config: DocsThemeConfig = {
   search: {
     placeholder: () => {
       const { locale: activeLocale } = useRouter();
-      const placeholderTranslations = { en: "Search...", ar: "يبحث..." };
+      const placeholderTranslations = { en: "Search...", ar: "بحث..." };
 
       return placeholderTranslations[activeLocale];
     },
@@ -63,9 +63,9 @@ const config: DocsThemeConfig = {
     link: "https://github.com/drivelead/servicestandards.git",
   },
   head: dynamicHead,
-  chat: {
-    link: "https://discord.com",
-  },
+  // chat: {
+  //  link: "https://discord.com",
+  // },
   primaryHue: 160,
   // docsRepositoryBase: 'https://github.com/drivelead/servicestandards.git',
   footer: {
