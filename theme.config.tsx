@@ -13,6 +13,8 @@ import {
   titleSuffixTranslations,
 } from "./lib/static/translations";
 
+const githubRepo = "https://github.com/drivelead/servicestandards";
+
 const dynamicHead = () => {
   const { asPath, defaultLocale, locale: activeLocale } = useRouter();
   const { frontMatter } = useConfig();
@@ -60,14 +62,14 @@ const config: DocsThemeConfig = {
     },
   },
   project: {
-    link: "https://github.com/drivelead/servicestandards.git",
+    link: "https://github.com/drivelead/servicestandards",
   },
+  docsRepositoryBase: "https://github.com/drivelead/servicestandards",
   head: dynamicHead,
   // chat: {
   //  link: "https://discord.com",
   // },
   primaryHue: 160,
-  // docsRepositoryBase: 'https://github.com/drivelead/servicestandards.git',
   footer: {
     component: () => {
       return <Footer />;
@@ -84,7 +86,7 @@ const config: DocsThemeConfig = {
     },
   },
   editLink: {
-    component: () => {
+    component: ({ filePath }) => {
       const { locale: activeLocale } = useRouter();
       const labelTranslations = {
         en: "Edit this page",
@@ -94,7 +96,7 @@ const config: DocsThemeConfig = {
         <div>
           <a
             className="font-medium text-xs text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition-colors duration-150"
-            href="#"
+            href={githubRepo + "/tree/main/" + filePath}
             target="_blank"
             rel="noopener noreferrer"
           >
